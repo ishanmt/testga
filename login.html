@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head><title>LOGIN</title>
 <style>
@@ -25,4 +26,33 @@ onBlur="this.style.background = '#bfbfbf';"> <br> <input type="button" value="Lo
 <div style="background-color:black;color:white;padding:10px;"></div>
 <div><footer style="text-align:right"><b><em>Designed & Developed by:</em></b><br><b><marquee>ISHAN MANI TIWARI, CHAITRA MALLESH, ARPIT SRIVASTAVA, CHANDANA MALLESH</b></footer>
 </div>
+=======
+<html>
+<head><title>LOGIN</title>
+<style>
+.one{
+	font-size:40px; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;color:white
+}
+</style>
+<script>
+function Login(form) { username = new Array("14cs032","14cs010","14cs020","14cs021"); password = new Array("0000","0000","0000","0000"); page = "F:\ISHAN\Web\Page1" + ".html"; if (form.username.value == username[0] && form.password.value == password[0] || form.username.value == username[1] && form.password.value == password[1] ||
+form.username.value == username[2] && form.password.value == password[2] || form.username.value == username[3] && form.password.value == password[3] ||
+form.username.value == username[4] && form.password.value == password[4]) { window.location = page; } else { alert("Either the username or password you entered is incorrect.\nPlease try again."); form.username.focus(); } return true; }
+</script> </head> 
+<body bgcolor="#eeeeee"><div style="background-color:black;color:white;padding:25px;">
+<p><img src="PESCE_Logo.jpg" alt="" width="131" height="135" align="left"/>
+  <img src="PESCE50_LOGO.jpg" alt="" width="144" height="135" align="right"/>
+ 
+  <p class="one">P.E.S COLLEGE OF ENGINEERING</p>
+    Aided by Govt. of Karnataka || An Autonomous Institution || Affliated to VTU, Belgaum</p>
+</div>
+ <form> <br> <center> <h5>Username: <input type="text" id="abb" name="username" style="background:#bfbfbf;color:#212121;border-color:#212121;" onFocus="this.style.background = '#ffffff';"
+onBlur="this.style.background = '#bfbfbf';"> <br> Password: <input type="password" name="password" style="background:#bfbfbf;color:#212121;border-color:#212121;" onFocus="this.style.background = '#ffffff';"
+onBlur="this.style.background = '#bfbfbf';"> <br> <input type="button" value="Login" onClick="Login(this.form);" style="background:#bfbfbf;color:#000000;border-color:#212121;" onMouseOver="this.style.color =
+'#404040';" onMouseOut="this.style.color = '#000000';" onFocusr="this.style.color = '#404040';" onBlur="this.style.color = '#000000';"></h5> </center> </form> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="background-color:black;color:white;padding:10px;"></div>
+<div><footer style="text-align:right"><b><em>Designed & Developed by:</em></b><br><b><marquee>ISHAN MANI TIWARI, CHAITRA MALLESH, ARPIT SRIVASTAVA, CHANDANA MALLESH</b></footer>
+</div>
+>>>>>>> 40842f015203547e1a72167ab54bc2cff3d3eade
 </body> </html>
